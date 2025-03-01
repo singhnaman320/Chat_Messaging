@@ -29,3 +29,49 @@ Frontend and Backend can be run using "npm run dev" seperately (For simplicity, 
 
  <p>Note: Installed packages can be seen in package.json<p/>
 
+## Dependencies Installed:
+1. [] For Backend:
+1.1 bcryptjs (^3.0.2) - For hashing passwords.
+1.2 cors (^2.8.5) - Enables Cross-Origin Resource Sharing.
+1.3 dotenv (^16.4.7) - Loads environment variables from a .env file.
+1.4 express (^4.21.2) - Web framework for Node.js.
+1.5 jsonwebtoken (^9.0.2) - For handling JWT authentication.
+1.6 mongoose (^8.10.2) - ODM (Object Data Modeling) for MongoDB.
+1.7 multer (^1.4.5-lts.1) - Middleware for handling file uploads.
+1.8 net (^1.0.2) - Networking module for TCP socket communication.
+1.9 socket.io (^4.8.1) - Real-time WebSocket communication.
+
+2. [] For Frontend:
+2.1 UI & Styling:
+2.1.1 @emotion/react & @emotion/styled - For CSS-in-JS styling.
+2.1.2 @mui/icons-material & @mui/material - Material UI components.
+2.1.3 tailwind - Likely a misconfigured package, should be tailwindcss.
+
+2.2 State Management:
+2.2.1 @reduxjs/toolkit - Redux state management.
+2.2.2 react-redux - React bindings for Redux.
+
+2.3 Routing & Networking:
+2.3.1 react-router-dom - For routing in React.
+2.3.2 axios - For making HTTP requests.
+
+2.4 Real-time Communication:
+2.4.1 socket.io-client - For WebSocket communication.
+
+2.5Core React:
+2.5.1 react & react-dom - The main React library.
+
+2.6 DevDependencies (For Development)
+2.6.1 Build & Tooling:
+vite - Fast frontend build tool.
+@vitejs/plugin-react - React plugin for Vite.
+
+2.6.2 Linting & Code Quality:
+eslint, @eslint/js - JavaScript linting.
+eslint-plugin-react, eslint-plugin-react-hooks, eslint-plugin-react-refresh - Linting plugins for React.
+
+2.6.3 TypeScript Support:
+@types/react, @types/react-dom - Type definitions for React.
+
+2.6.4 CSS Processing:
+tailwindcss - Correct package for Tailwind.
