@@ -30,7 +30,8 @@ Frontend and Backend can be run using "npm run dev" seperately (For simplicity, 
  <p>Note: Installed packages can be seen in package.json<p/>
 
 ## Dependencies Installed:
-1. [] For Backend:
+
+## For Backend:
    
 1.1 bcryptjs (^3.0.2) - For hashing passwords.<hr/>
 1.2 cors (^2.8.5) - Enables Cross-Origin Resource Sharing.<hr/>
@@ -42,7 +43,7 @@ Frontend and Backend can be run using "npm run dev" seperately (For simplicity, 
 1.8 net (^1.0.2) - Networking module for TCP socket communication.<hr/>
 1.9 socket.io (^4.8.1) - Real-time WebSocket communication.<hr/>
 
-3. [] For Frontend:
+## For Frontend:
    
 2.1 UI & Styling:
 2.1.1 @emotion/react & @emotion/styled - For CSS-in-JS styling.<hr/>
